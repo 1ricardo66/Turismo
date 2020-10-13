@@ -11,11 +11,12 @@ import org.hibernate.annotations.GenericGenerator;*/
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
+@Document(collection = "atracao")
 public class Atracao {
 	
 	//@GeneratedValue(generator = "increment")
 	//@GenericGenerator(name = "increment", strategy = "increment")
+	
 	
 	@Id
 	private String id;
@@ -34,12 +35,18 @@ public class Atracao {
 		
 	}
 	
-	public Atracao(Long id, String descricao) {
-		
+	
+	
+	
+	public Atracao(String cidade, String descricao) {
+		super();
+		this.descricao = descricao;
+		this.cidade = cidade;
 	}
-	
-	
-	
+
+
+
+
 	public String getId() {
 		return id;
 	}

@@ -37,9 +37,17 @@ public class Estabelecimento implements Serializable {
 
 
 	
-	public Estabelecimento(Long id, String nome) {
-		
+	
+
+	public Estabelecimento(String nome, String telefone) {
+		super();
+		this.nome = nome;
+		this.telefone = telefone;
 	}
+
+
+
+
 
 	public Estabelecimento() {
 		

@@ -32,8 +32,8 @@ public class EstabelecimentoService {
 	}
 	
 	
-	public void deleteById(String id) {
-		estabelecimentoRepository.deleteById(id);
+	public Mono<Void>  delete(String id) {
+		return estabelecimentoRepository.deleteById(id);
 	}
 	
 }

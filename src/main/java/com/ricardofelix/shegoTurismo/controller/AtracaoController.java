@@ -48,10 +48,11 @@ public class AtracaoController {
 	}
 	
 	@ApiOperation(value = "Método para realizar a exclusão de uma atração.")
-	
 	@DeleteMapping("/atracoes/{id}")
-	public void deleteAtracoes(@PathVariable ("id") String id) {
-		atracaoService.deleteById(id);
+	public Mono<Void> deleteAtracoes(@PathVariable ("id") String id) {
+		return atracaoService.delete(id);
+		
 	}
+	
 
 }

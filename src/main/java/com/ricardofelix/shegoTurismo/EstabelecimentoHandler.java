@@ -37,5 +37,12 @@ public class EstabelecimentoHandler {
 				.contentType(MediaType.APPLICATION_JSON)
 				.body(fromPublisher(atracao.flatMap(service::saveEstabelecimento), Estabelecimento.class));
 	}
+	
+	public Mono<ServerResponse> deleteById(ServerRequest request) {
+		return Mono.just(service.delete((request.pathVariable("id"))))
+				.flatMap(val -> {
+					return ServerResponse.noContent().build();
+				});
+	}
 
 }
