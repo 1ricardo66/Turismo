@@ -1,12 +1,12 @@
-package com.ricardofelix.shegoTurismo.services;
+package com.ricardofelix.Turismo.services;
 
 import java.util.Objects;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ricardofelix.shegoTurismo.document.Atracao;
-import com.ricardofelix.shegoTurismo.repository.AtracaoRepository;
+import com.ricardofelix.Turismo.document.Atracao;
+import com.ricardofelix.Turismo.repository.AtracaoRepository;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

@@ -1,4 +1,4 @@
-package com.ricardofelix.shegoTurismo;
+package com.ricardofelix.Turismo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

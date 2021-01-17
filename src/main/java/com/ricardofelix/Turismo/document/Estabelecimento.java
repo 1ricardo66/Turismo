@@ -1,4 +1,4 @@
-package com.ricardofelix.shegoTurismo.document;
+package com.ricardofelix.Turismo.document;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -18,34 +18,60 @@ public class Estabelecimento implements Serializable {
 	private String id;
 	
 	
-	/*@ElementCollection(targetClass = EstabelecimentoCategoria.class)
-	@Enumerated
-	@Column*/
-	private List<EstabelecimentoCategoria> categoria;
 
-	
+	private ArrayList<String> pontos;
 	private String nome;
-	private String rua;
-	private int numero;
-	private String cep;
 	private String cidade;
-	private String telefone;
-	private String email;
+	private String foto;
+	private String estado;
 	private String site;
-	private ArrayList<String> tags;
-	
-
-
+	private String descricao;
 	
 	
-
-	public Estabelecimento(String nome, String telefone) {
-		super();
-		this.nome = nome;
-		this.telefone = telefone;
+	
+	public String getFoto() {
+		return foto;
 	}
 
 
+
+	public void setFoto(String foto) {
+		this.foto = foto;
+	}
+
+
+
+
+
+	public String getEstado() {
+		return estado;
+	}
+
+
+
+
+
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
+
+
+
+
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+
+
+
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	
 
 
 
@@ -65,17 +91,6 @@ public class Estabelecimento implements Serializable {
 	}
 	
 	
-	public List<EstabelecimentoCategoria> getCategoria() {
-		return categoria;
-	}
-
-
-
-	public void setCategoria(List<EstabelecimentoCategoria> categoria) {
-		this.categoria = categoria;
-	}
-	
-	
 	public String getNome() {
 		return nome;
 	}
@@ -83,42 +98,13 @@ public class Estabelecimento implements Serializable {
 		this.nome = nome;
 	}
 	
-	public String getRua() {
-		return rua;
-	}
-	public void setRua(String rua) {
-		this.rua = rua;
-	}
-	public int getNumero() {
-		return numero;
-	}
-	public void setNumero(int numero) {
-		this.numero = numero;
-	}
-	public String getCep() {
-		return cep;
-	}
-	public void setCep(String cep) {
-		this.cep = cep;
-	}
 	public String getCidade() {
 		return cidade;
 	}
 	public void setCidade(String cidade) {
 		this.cidade = cidade;
 	}
-	public String getTelefone() {
-		return telefone;
-	}
-	public void setTelefone(String telefone) {
-		this.telefone = telefone;
-	}
-	public String getEmail() {
-		return email;
-	}
-	public void setEmail(String email) {
-		this.email = email;
-	}
+
 	public String getSite() {
 		return site;
 	}
@@ -126,14 +112,13 @@ public class Estabelecimento implements Serializable {
 		this.site = site;
 	}
 	
-	public ArrayList<String> getTags() {
-		return tags;
+	public ArrayList<String> getPontos() {
+		return pontos;
 	}
 
 
-
-	public void setTags(ArrayList<String> tags) {
-		this.tags = tags;
+	public void setPontos(ArrayList<String> pontos) {
+		this.pontos = pontos;
 	}
 	
 	

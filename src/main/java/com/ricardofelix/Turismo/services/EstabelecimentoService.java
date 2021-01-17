@@ -1,10 +1,10 @@
-package com.ricardofelix.shegoTurismo.services;
+package com.ricardofelix.Turismo.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ricardofelix.shegoTurismo.document.Estabelecimento;
-import com.ricardofelix.shegoTurismo.repository.EstabelecimentoRepository;
+import com.ricardofelix.Turismo.document.Estabelecimento;
+import com.ricardofelix.Turismo.repository.EstabelecimentoRepository;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

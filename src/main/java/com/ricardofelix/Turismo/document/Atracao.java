@@ -1,4 +1,4 @@
-package com.ricardofelix.shegoTurismo.document;
+package com.ricardofelix.Turismo.document;
 
 import java.util.List;
 
@@ -21,10 +21,8 @@ public class Atracao {
 	@Id
 	private String id;
 	
+		
 	
-	private String descricao;
-	private String bairro;
-	private String cidade;
 	/*@ElementCollection(targetClass = AtracaoCategoria.class)
 	@Enumerated
 	@Column*/
@@ -38,11 +36,11 @@ public class Atracao {
 	
 	
 	
-	public Atracao(String cidade, String descricao) {
+	/*public Atracao(String cidade, String descricao) {
 		super();
 		this.descricao = descricao;
 		this.cidade = cidade;
-	}
+	}*/
 
 
 
@@ -53,13 +51,13 @@ public class Atracao {
 	public void setId(String id) {
 		this.id = id;
 	}
-	public String getDescricao() {
+	/*public String getDescricao() {
 		return descricao;
 	}
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
-	}
-	public String getBairro() {
+	}*/
+	/*public String getBairro() {
 		return bairro;
 	}
 	public void setBairro(String bairro) {
@@ -70,7 +68,7 @@ public class Atracao {
 	}
 	public void setCidade(String cidade) {
 		this.cidade = cidade;
-	}
+	}*/
 	
 	
 	

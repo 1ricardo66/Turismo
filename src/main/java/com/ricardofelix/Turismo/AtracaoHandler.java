@@ -1,4 +1,4 @@
-package com.ricardofelix.shegoTurismo;
+package com.ricardofelix.Turismo;
 
 import static org.springframework.web.reactive.function.BodyInserters.fromPublisher;
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
@@ -10,9 +10,9 @@ import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 import org.springframework.web.servlet.function.RouterFunctions;
 
-import com.ricardofelix.shegoTurismo.document.Atracao;
-import com.ricardofelix.shegoTurismo.repository.AtracaoRepository;
-import com.ricardofelix.shegoTurismo.services.AtracaoService;
+import com.ricardofelix.Turismo.document.Atracao;
+import com.ricardofelix.Turismo.repository.AtracaoRepository;
+import com.ricardofelix.Turismo.services.AtracaoService;
 
 import reactor.core.publisher.Mono;
 

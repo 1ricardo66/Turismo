@@ -1,4 +1,4 @@
-package com.ricardofelix.shegoTurismo;
+package com.ricardofelix.Turismo;
 
 import static org.springframework.web.reactive.function.BodyInserters.fromPublisher;
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
@@ -8,8 +8,8 @@ import org.springframework.http.MediaType;
 import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
-import com.ricardofelix.shegoTurismo.document.Estabelecimento;
-import com.ricardofelix.shegoTurismo.services.EstabelecimentoService;
+import com.ricardofelix.Turismo.document.Estabelecimento;
+import com.ricardofelix.Turismo.services.EstabelecimentoService;
 
 import reactor.core.publisher.Mono;
 

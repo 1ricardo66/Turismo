@@ -1,4 +1,4 @@
-package com.ricardofelix.shegoTurismo;
+package com.ricardofelix.Turismo;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.MediaType;

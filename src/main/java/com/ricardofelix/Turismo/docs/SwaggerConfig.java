@@ -1,4 +1,4 @@
-package com.ricardofelix.shegoTurismo.docs;
+package com.ricardofelix.Turismo.docs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

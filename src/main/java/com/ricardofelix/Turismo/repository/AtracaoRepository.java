@@ -1,8 +1,8 @@
-package com.ricardofelix.shegoTurismo.repository;
+package com.ricardofelix.Turismo.repository;
 
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
-import com.ricardofelix.shegoTurismo.document.Atracao;
+import com.ricardofelix.Turismo.document.Atracao;
 
 public interface AtracaoRepository extends ReactiveMongoRepository<Atracao, String> {
 

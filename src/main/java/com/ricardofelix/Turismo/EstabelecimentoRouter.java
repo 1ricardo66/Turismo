@@ -1,4 +1,4 @@
-package com.ricardofelix.shegoTurismo;
+package com.ricardofelix.Turismo;
 
 import static org.springframework.web.reactive.function.server.RequestPredicates.GET;
 import static org.springframework.web.reactive.function.server.RequestPredicates.POST;

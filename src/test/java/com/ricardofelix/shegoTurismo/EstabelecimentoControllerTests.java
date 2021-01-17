@@ -1,4 +1,4 @@
-package com.ricardofelix.shegoTurismo;
+/*package com.ricardofelix.shegoTurismo;
 
 import java.util.UUID;
 
@@ -14,9 +14,9 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.reactive.server.WebTestClient;
 import org.springframework.web.reactive.function.BodyInserters;
 
-import com.ricardofelix.shegoTurismo.controller.EstabelecimentoController;
-import com.ricardofelix.shegoTurismo.document.Estabelecimento;
-import com.ricardofelix.shegoTurismo.services.EstabelecimentoService;
+import com.ricardofelix.Turismo.controller.EstabelecimentoController;
+import com.ricardofelix.Turismo.document.Estabelecimento;
+import com.ricardofelix.Turismo.services.EstabelecimentoService;
 
 import reactor.core.publisher.Mono;
 
@@ -99,4 +99,4 @@ public class EstabelecimentoControllerTests {
 		  
 		  Mockito.verify(estabelecimentoService).findById(uuid);
 	  }
-}
+}*/

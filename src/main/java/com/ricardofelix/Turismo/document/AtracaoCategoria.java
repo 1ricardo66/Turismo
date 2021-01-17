@@ -1,4 +1,4 @@
-package com.ricardofelix.shegoTurismo.document;
+package com.ricardofelix.Turismo.document;
 
 public enum AtracaoCategoria {
 	MONUMENTO, 

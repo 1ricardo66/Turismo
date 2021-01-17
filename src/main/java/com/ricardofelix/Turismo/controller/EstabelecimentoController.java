@@ -1,4 +1,4 @@
-package com.ricardofelix.shegoTurismo.controller;
+package com.ricardofelix.Turismo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ricardofelix.shegoTurismo.document.Estabelecimento;
-import com.ricardofelix.shegoTurismo.services.EstabelecimentoService;
+import com.ricardofelix.Turismo.document.Estabelecimento;
+import com.ricardofelix.Turismo.services.EstabelecimentoService;
 
 import io.swagger.annotations.ApiOperation;
 //import io.swagger.annotations.ApiOperation;
